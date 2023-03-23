@@ -4,15 +4,15 @@ VeeBrew is a simple newsletter signup website built using Node.js, Express.js, a
 
 ## Technologies used
 
-- Node.js - a JavaScript runtime built on Chrome's V8 JavaScript engine.
-- Express.js - a minimal and flexible Node.js web application framework.
-- Mailchimp API - a RESTful API to manage Mailchimp marketing platform's functionality and integrate it into other systems.
-- Bootstrap - a popular front-end framework to design responsive and mobile-first websites using HTML, CSS, and JavaScript.
-- Body-parser - a middleware to parse incoming request bodies in a middleware before your handlers.
-- HTTPS - a module in Node.js to implement HTTPS (HTTP Secure) protocol for secure data transfer over the internet.
-- HTML - a markup language to create web pages and other information that can be displayed in a web browser.
-- CSS - a stylesheet language used to describe the presentation of a document written in HTML.
-- JavaScript - a high-level programming language used to create dynamic, interactive web pages and applications.
+- **Node.js** - a JavaScript runtime built on Chrome's V8 JavaScript engine.
+- **Express.js** - a minimal and flexible Node.js web application framework.
+- **Mailchimp API** - a RESTful API to manage Mailchimp marketing platform's functionality and integrate it into other systems.
+- **Bootstrap** - a popular front-end framework to design responsive and mobile-first websites using HTML, CSS, and JavaScript.
+- **Body-parser** - a middleware to parse incoming request bodies in a middleware before your handlers.
+- **HTTPS** - a module in Node.js to implement HTTPS (HTTP Secure) protocol for secure data transfer over the internet.
+- **HTML** - a markup language to create web pages and other information that can be displayed in a web browser.
+- **CSS** - a stylesheet language used to describe the presentation of a document written in HTML.
+- **JavaScript** - a high-level programming language used to create dynamic, interactive web pages and applications.
 
 ## Installation and Usage
 
