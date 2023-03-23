@@ -7,6 +7,11 @@ const bodyParser = require("body-parser");
 const portNumber = process.env.PORT || 3999;
 
 const app = express();
+
+const appkey = "ce86b68e34f366a05cc9e4c"; 
+const listid = "1692f8471
+
+
 app.use(express.static("public"));
 app.use(bodyParser.urlencoded({extended:true}));
 
@@ -36,11 +41,11 @@ app.post("/", function(req, res){
     };
     const jsondata = JSON.stringify(data);
 
-    const url = "https://us21.api.mailchimp.com/3.0/lists/1692f84714";
+    const url = "https://us21.api.mailchimp.com/3.0/lists/"+listid;
 
     const options = {
         method: "POST",
-        auth: "aryansaxena:ce86b68e34f366a05cc9e4c68b4e1bf8-us21"
+        auth: appkey
     };
 
     const request = https.request(url, options, function(response){
@@ -65,7 +70,3 @@ app.post("/failure", function(req, res){
     res.redirect("/");
 });
 
-//APIKEY
-// ce86b68e34f366a05cc9e4c68b4e1bf8-us21
-//LISTID
-// 1692f84714
