@@ -8,29 +8,26 @@
     <meta name="generator" content="Hugo 0.108.0">
     <title>Newsletter Signup</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    
-    <!-- Custom styles for this template -->
     <link href="CSS/styles.css" rel="stylesheet">
 </head>
 <body class="text-center">
     
     <main class="form-signin w-100 m-auto">
-        <form>
+        <form method="post">
             <div class="d-flex justify-content-center mb-4">
                 <img class="mb-4" src="images/logo.png" alt="">
             </div>
             <h1 class="h3 mb-3 fw-normal">Sign up to my Newsletter</h1>
-            
             <div class="form-floating">
-                <input type="text" class="form-control top" placeholder="First Name">
+                <input type="text" name="fname" class="form-control top" placeholder="First Name">
                 <label for="floatingInput">First Name</label>
             </div>
             <div class="form-floating">
-                <input type="text" class="form-control middle" placeholder="Last Name">
+                <input type="text" name="lname" class="form-control middle" placeholder="Last Name">
                 <label for="floatingPassword">Last Name</label>
             </div>
             <div class="form-floating">
-                <input type="email" class="form-control bottom" placeholder="Email">
+                <input type="email" name="email" class="form-control bottom" placeholder="Email">
                 <label for="floatingPassword">Email</label>
             </div>
             <button class="w-100 btn btn-lg btn-primary" type="submit">Sign me up</button>
